@@ -8,7 +8,7 @@ import { ITheme } from 'xterm';
 import { assert } from 'chai';
 import { openTerminal, pollFor, writeSync, getBrowserType } from '../../../out-test/api/TestUtils';
 import { Browser, Page } from 'playwright-core';
-
+// comment
 const APP = 'http://127.0.0.1:3000/test';
 
 let browser: Browser;
